@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>简洁版</title>
+  <link rel="stylesheet" href="./layui/css/layui.css">
+	<style>
+		*{
+			box-sizing:border-box;
+		}
+		body {
+				background: #f2f2f2;
+				font-family: 微软雅黑, 宋体, sans-serif, 方正启体繁体;
+		}
+		.layui-icon-about {
+			position: absolute;
+			left: -5px;
+			top: 0;
+			z-index: 10;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			background-color: #fff;
+			color: #5FB878;
+			border-radius: 50%;
+			text-align: center;
+			cursor: pointer;
+	}
+	.infobox{
+		margin:20px 0;
+	}
+	.infobox .layui-timeline{
+		padding: 15px;
+	}
+	.infobox .layui-timeline-content{
+    /* border: 1px solid #888888; */
+    position: relative;
+    border-radius: 3px;
+		margin-left: 25px;
+		padding:10px;
+		padding: relative;
+		background:#fff;
+
+	}
+	.infobox .layui-timeline-content:before{
+		position:absolute;
+		content:"";
+		background:#fff;
+		left:-11px;
+		top:10px;
+		width:0; 
+    height:0; 
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent; 
+    /* border-right:10px solid #888888; */
+		
+	}
+	.infobox .layui-timeline-content:after{
+		position:absolute;
+		content:"";
+		left:-10px;
+		top:9px;
+		width:0; 
+    height:0; 
+    border-top:11px solid transparent;
+    border-bottom:11px solid transparent; 
+    border-right:11px solid #fff;
+	}
+	.layui-icon-about{
+		top:15px;
+		color:#ccc;
+		background:#f2f2f2;
+	}
+	.layui-timeline-item:before, hr{
+		 background-color: #333;
+	}
+	.layui-text{
+		font-size:15px;
+	}
+	</style>
+</head>
+<body>
+ 
+<!-- 你的HTML代码 -->
+<div class="infobox">
+		<ul class="layui-timeline">
+			 <li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<!-- <h3 class="layui-timeline-title">8月18日</h3> -->
+						<p>
+							上报xxx
+						</p>
+					</div>
+				</li>
+			 <li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<!-- <h3 class="layui-timeline-title">8月16日</h3> -->
+						<p>运行分管审批并上报</p>
+						
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<!-- <h3 class="layui-timeline-title">8月15日</h3> -->
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<p>检修分管审批并上报</p>
+					</div>
+				</li>
+				
+		</ul>
+</div>
+		
+ 
+<script src="./layui/layui.js"></script>
+<script>
+//一般直接写在一个js文件中
+// layui.use(['layer', 'form'], function(){
+//   var layer = layui.layer
+//   ,form = layui.form;
+//   
+//   layer.msg('Hello World');
+// });
+</script> 
+</body>
+</html>
+      

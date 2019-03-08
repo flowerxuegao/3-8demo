@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>详细版</title>
+  <link rel="stylesheet" href="./layui/css/layui.css">
+	<style>
+		*{
+			box-sizing:border-box;
+		}
+		body{
+			background:#f2f2f2;
+			font-family: 微软雅黑, 宋体, sans-serif, 方正启体繁体;
+		}
+		.layui-icon-about {
+			position: absolute;
+			left: -5px;
+			top: 0;
+			z-index: 10;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			background-color: #f2f2f2;
+			color: #5FB878;
+			border-radius: 50%;
+			text-align: center;
+			cursor: pointer;
+			color:#4E9CFD;
+	}
+	.infobox{
+		margin:20px 0 100px;
+	}
+	.infobox .layui-timeline{
+		padding: 20px;
+	}
+	.infobox .layui-timeline-content{
+    /* border: 1px solid #888888; */
+    position: relative;
+    border-radius: 3px;
+		margin-left: 25px;
+		padding:30px;
+		padding: relative;
+		background:#fff;
+		
+
+	}
+	.infobox .layui-timeline-content:before{
+		position:absolute;
+		content:"";
+		background:#f2f2f2;
+		left:-11px;
+		top:10px;
+		width:0; 
+	  height:0; 
+	  border-top:10px solid transparent;
+	  border-bottom:10px solid transparent; 
+	  /* border-right:10px solid #888888; */
+		
+	}
+	.infobox .layui-timeline-content:after{
+		position:absolute;
+		content:"";
+		background:#red;
+		left:-10px;
+		top:9px;
+		width:0; 
+	  height:0; 
+	  border-top:11px solid transparent;
+	  border-bottom:11px solid transparent; 
+	  border-right:11px solid #fff;
+		
+	}
+	.layui-icon-about{
+		top:15px;
+		color:#ccc;
+	}
+	.layui-text ul{
+		 padding: 5px 0 5px 0px;
+	}
+	.layui-text ul li{
+		list-style:none;
+	}
+	.layui-text img{
+		width:100px;
+		height:100px;
+		display:block;
+		margin-top:15px;
+	}
+	.infolist{
+		text-indent: 2em;;
+	}
+	.layui-timeline-item:before, hr{
+		 background-color: #333;
+	}
+	.layui-text{
+		font-size:15px;
+	}
+	.haveimg{
+		color:#4E9CFD;
+	}
+	</style>
+</head>
+<body>
+ 
+<!-- 你的HTML代码 -->
+<div class="infobox">
+		<ul class="layui-timeline">
+			 <li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about haveimg"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 16:44</li>
+							<li>秦孝明</li>
+							<li><div class = "infolist">110kV石槽变电站10kV1号电容器C519电力电容器分散式电力电容器本体其他10kV C519-C隔离开关 C相刀口温度73度 其它两相16左右</div></li>
+							<li><img src="img/bg1.jpg" alt=""></li>
+						</ul>
+					</div>
+				</li>
+			 <li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 17:41</li>
+							<li>冯铮审核并派发</li>
+							<li><div class = "infolist">缺陷描述清楚，结合巡视加强监测。</div></li>
+							<!-- <li><img src="img/bg3.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 18:30</li>
+							<li>张晓辉审核并派发</li>
+							<li><div class = "infolist">请变电运维做好设备跟踪测温检测，构成严重缺陷时及时报告，变电检修尽快安排2周内处理。</div></li>
+							<!-- <li><img src="img/bg1.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 20:39</li>
+							<li>崔辰晨审核并派发</li>
+							<li><div class = "infolist">周计划停电处理</div></li>
+							<!-- <li><img src="img/bg3.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 16:44</li>
+							<li>张三</li>
+							<li><div class = "infolist">茅屋为秋风所破歌对这个div用css3的实现三角形，然后绝对定</div></li>
+							<!-- <li><img src="img/bg1.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about haveimg"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 16:44</li>
+							<li>张三</li>
+							<li><div class = "infolist">茅屋为秋风所破歌对这个div用css3的实现三角形，然后绝对定</div></li>
+							<li><img src="img/bg3.jpg" alt=""></li>
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 16:44</li>
+							<li>张三</li>
+							<li><div class = "infolist">茅屋为秋风所破歌对这个div用css3的实现三角形，然后绝对定</div></li>
+							<!-- <li><img src="img/bg3.jpg" alt=""></li> -->
+						</ul>
+					</div>
+				</li>
+				<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about haveimg"></i>
+					<div class="layui-timeline-content layui-text">
+						<ul>
+							<li>2019.03.01 16:44</li>
+							<li>张三</li>
+							<li><div class = "infolist">茅屋为秋风所破歌对这个div用css3的实现三角形，然后绝对定</div></li>
+							<li><img src="img/bg3.jpg" alt=""></li>
+						</ul>
+					</div>
+				</li>
+			<!-- 	<li class="layui-timeline-item">
+					<i class="layui-icon layui-icon-about"></i>
+					<div class="layui-timeline-content layui-text">
+						<div class="layui-timeline-title">过去</div>
+						
+					</div>
+				</li> -->
+				
+		</ul>
+</div>
+		
+ 
+<script src="./layui/layui.js"></script>
+<script>
+//一般直接写在一个js文件中
+// layui.use(['layer', 'form'], function(){
+//   var layer = layui.layer
+//   ,form = layui.form;
+//   
+//   layer.msg('Hello World');
+// });
+</script> 
+</body>
+</html>
+      
